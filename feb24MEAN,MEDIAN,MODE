@@ -1,3 +1,6 @@
+#The following code finds the mean of a set of numbers.
+
+
 list = [3,3,5,4,6,8,1,23,4,5,81]      #this makes the list 
 list.sort() #so it goes from lowest to highest
 print(list) #this prints the list to the reader
@@ -7,3 +10,51 @@ x = sum(list) #the sum function adds up all of the numbers together
 y = len(list) #the len function determines how many items are in the list
 
 print("the mean is ", x/y)  #this code prints the sum of all the numbers divided by all the amount of numbers in the list
+
+
+
+
+
+
+#The following code finds the median of a list of numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#The following list finds the mode of a list of numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#The following code finds the range out of a list of numbers.

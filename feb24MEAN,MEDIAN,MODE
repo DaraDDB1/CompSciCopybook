@@ -13,24 +13,21 @@ print("the mean is ", x/y)  #this code prints the sum of all the numbers divided
 
 
 
-
-
-
 #The following code finds the median of a list of numbers.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+numbers = [45,7,8,12,3,9,]
+# Sort the list
+numbers.sort()
+# Finding the position of the median
+if len(numbers) % 2 == 0: #if the length of the numbers
+   first_median = numbers[len(numbers) // 2] #number of items divided by 2 and rounded
+   second_median = numbers[len(numbers) // 2 - 1] #divided by 2-1 rounded
+   median = (first_median + second_median) / 2 #not rounded
+else:
+   median = numbers[len(numbers) // 2]
+print(numbers)
+print("Median of above list is: " + str(median))
 
 
 
@@ -38,8 +35,6 @@ print("the mean is ", x/y)  #this code prints the sum of all the numbers divided
 
 
 #The following list finds the mode of a list of numbers.
-
-
 
 
 
